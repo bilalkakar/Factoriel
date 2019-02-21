@@ -3,11 +3,18 @@
 
 int main()
 {
-    int fact=0;
-    printf("entrer un chiffre dont vous voulez la factoriel: ");
-    scanf("%i",&fact);
+    int number=0;
+    printf("Please enter a number: ");
+    scanf("%i",&number);
+    factoriel(number);
+    return 0;
+}
+
+void factoriel(int fact)
+{
     int total=fact;
-    for (int i=fact-1; i>0; i--) {
+    for (int i=fact-1; i>0; i--)
+    {
         total=total * i;
     }
     printf("%d! = %d \n", fact, total);
