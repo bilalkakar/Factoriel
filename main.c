@@ -6,8 +6,8 @@ int main()
     int number=0;
     printf("Please enter a number: ");
     scanf("%i",&number);
-    factoriel(number);
-    return 0;
+    factoriel(number); //some comment
+    return 0; //jkjf
 }
 
 void factoriel(int fact)
