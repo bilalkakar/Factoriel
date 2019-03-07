@@ -12,6 +12,7 @@ int main()
 
 void factoriel(int fact)
 {
+    // add a comment
     int total=fact;
     for (int i=fact-1; i>0; i--)
     {
