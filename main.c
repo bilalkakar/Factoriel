@@ -3,21 +3,17 @@
 
 int main()
 {
-    int number=0;
-    printf("Please enter a number: ");
-    scanf("%i",&number);
-    factoriel(number); //some comment
-    return 0; //jkjf
+   int fact =5;
+   printf("%d! = %d \n", fact, factoriel(fact));
+    return 0;
 }
 
-void factoriel(int fact)
+int factoriel(int f)
 {
     // add a comment
-    int total=fact;
-    for (int i=fact-1; i>0; i--)
+    if(f == 1)
     {
-        total=total * i;
+        return 1;
     }
-    printf("%d! = %d \n", fact, total);
-    return 0;
+    return (f*factoriel(f-1));
 }
