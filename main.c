@@ -10,6 +10,10 @@ int main()
     return 0; //jkjf
 }
 
+/* add a factorial function */
+
+/* add a factorial function */
+
 void factoriel(int fact)
 {
     int total=fact;
